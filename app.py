@@ -1,4 +1,6 @@
 import json
+import os
+os.system("sudo apt-get install libsndfile1")
 import re
 import stat
 from flask import Flask, jsonify,request,render_template, send_from_directory,send_file
